@@ -50,7 +50,7 @@ const FilterStatus = () => {
   };
 
   return (
-    <div className="m-5 flex flex-wrap md:hidden">
+    <div className="m-5 flex flex-wrap ">
       {allArr.map((item, index) => (
         <FilterItem item={item} key={index} />
       ))}

@@ -77,7 +77,7 @@ const SlideBarComp = ({ ele, comp }) => {
     <div className="mx-5 my-2">
       <label
         htmlFor={`${comp}-${ele}`}
-        className={`cursor-pointer w-100 hover:border border-slate-400 px-1 rounded block flex items-center `}
+        className={`cursor-pointer  hover:border border-slate-400 px-1 rounded block flex items-center `}
       >
         <input
           type="checkbox"
